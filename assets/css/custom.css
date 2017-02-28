@@ -1,0 +1,278 @@
+<style>
+img{
+  padding=10px;
+}
+
+.team-members{
+  border-radius: 50%;
+  width: 200px;
+  height:200px;
+  border:5px solid rgb(168,103,35);
+}
+.map{
+  position: relative;
+  height:700px;
+  z-index: 3;
+}
+.contactus{
+  position: absolute;
+  background-color:rgb(223,223,223);
+  height: 400px;
+  width: 250px;
+  z-index: 4;
+  margin-top: 125px;
+  padding: 10px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 325px;
+line-height: 20px;
+  background-color: rgba(30, 30, 30, 0.97);
+}
+
+.social icons{
+  align-items: center;
+  width: 30px;
+}
+
+.team-members{
+  border-radius: 50%;
+  width: 200px;
+  height:200px;
+  border:5px solid rgb(168,103,35);
+}
+
+.map{
+  position: relative;
+  height:700px;
+  z-index: 3;
+}
+.contactus{
+  position: absolute;
+  background-color:rgb(223,223,223);
+  height: 400px;
+  width: 250px;
+  z-index: 4;
+  margin-top: 125px;
+  padding: 10px;
+}
+
+#header{
+  text-align: center;
+  background-image:url("../img/NEW.jpg");
+  margin:20px auto;
+  margin-top: -30px;
+  background-size: cover;
+}
+#header h2{
+   font-size:849%;
+   font-family: 'Lato', sans-serif;
+   margin: 30px 0 2px;
+   padding-top: 90px;
+
+}
+
+#header p{
+  font-size: 24px;
+  margin: 2px auto 250px;
+}
+#header i{
+  font-size: 40px;
+}
+.decoline{
+  font-size: 50px;
+  color:rgb(34, 29, 29);
+}
+
+.d-line{
+  display: inline-block;
+  border:2px solid black;
+  width:12%;
+  height:2px;
+  margin-bottom: 14px;
+   color:rgb(34, 29, 29);
+}
+
+
+#about{
+  text-align: center;
+  margin:0px 3%
+}
+#about h3{
+  margin-top:10px;
+  font-size:44px;
+ font-family: 'Lato', sans-serif;
+ color:rgb(172, 57, 57);
+}
+#about p{
+  font-size:150%;
+  font-family: 'Lato', sans-serif;
+  margin-top:1%;
+  text-align:center;
+  color: black;
+}
+
+
+#what-we-do{
+  text-align: center;
+}
+#what-we-do h2{
+  margin-top:10px;
+  font-size:37px;
+ font-family: 'Lato', sans-serif;
+color: rgb(126, 14, 14);
+}
+#what-we-do h3{
+  margin-top:10px;
+  font-size:25px;
+ font-family: 'Lato', sans-serif;
+ color:black;
+}
+#what-we-do p{
+  color: black;
+  font-size:150%;
+}
+#what-we-do i{
+  color: black;
+  font-size: 40PX;
+}
+
+
+
+#works{
+  text-align: center;
+}
+#works h2{
+  margin-top:10px;
+  font-size:40px;
+ font-family: 'Lato', sans-serif;
+ color: rgb(126, 14, 14);
+}
+#works h3{
+  font-size:34px;
+ font-family: 'Lato', sans-serif;
+ color: rgb(126, 14, 14);
+}
+
+#works p{
+margin-top: 20px;
+  font-size:150%;
+  color:black;
+}
+
+#last{
+  background-color:black;
+  text-align: center;
+  margin-top:-100px;
+  margin-left: -10px;
+  margin-right:-10px;
+  height:30px;
+  width:1339px;
+  padding-bottom:-100px;
+}
+
+
+
+#thinks{
+  text-align: center;
+  color:black;
+}
+#thinks h2{
+  margin-top:10px;
+  font-size:35px;
+ font-family: 'Lato', sans-serif;
+ color: rgb(126, 14, 14);
+}
+
+#thinks p{
+   color:black;
+   font-size:150%;
+}
+.map{
+  margin-bottom: -320px;
+}
+
+
+
+
+#team{
+  text-align: center;
+}
+#team h2{
+  margin-top:10px;
+  font-size:35px;
+ font-family: 'Lato', sans-serif;
+ color: rgb(126, 14, 14);
+}
+#team h3{
+  font-size:30px;
+ font-family: 'Lato', sans-serif;
+ color: rgba(160, 29, 29, 0.98);
+}
+#team p{
+  font-size:130%;
+ font-family: 'Lato', sans-serif;
+ color: black;
+}
+
+
+#lie{
+  text-align: center;
+}
+#lie h2{
+  margin-top:10px;
+  font-size:35px;
+ font-family: 'Lato', sans-serif;
+ color: rgb(126, 14, 14);
+}
+#lie h3{
+  margin-top:10px;
+  font-size:30px;
+ font-family: 'Lato', sans-serif;
+ color: rgb(126, 14, 14);
+}
+#lie p{
+font-size:150%;
+}
+#lie h1{
+font-size:25px;
+}
+
+#cf {
+position:relative;
+height:250px;
+width:350px;
+margin:0 auto;
+}
+
+#cf img {
+position:absolute;
+left:0;
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+opacity:0;
+}
+
+.team-members{
+  border-radius: 60%;
+  width: 150px;
+  height: 150px;
+  border: 5px solid rgb(168,103,35);
+}
+
+.nav-pills li{
+  float:none;
+  display: inline-block;
+  zoom:1;
+}
+.nav-pills{
+  text-align: center;
+}
+
+</style>
